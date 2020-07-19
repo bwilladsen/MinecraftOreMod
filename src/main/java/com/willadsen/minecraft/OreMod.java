@@ -1,5 +1,7 @@
 package com.willadsen.minecraft;
 
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
@@ -34,5 +36,14 @@ public class OreMod
 
     private void doClientStuff(final FMLClientSetupEvent event) {
     }
+
+    // This can be a class that extends ItemGroup
+    public static final ItemGroup TAB = new ItemGroup("oreTab") {
+        @Override
+        public ItemStack createIcon() {
+            return new ItemStack(RegistryHandler.ITEM.get());
+
+        }
+    };
 
 }
