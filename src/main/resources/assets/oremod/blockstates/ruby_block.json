@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "": {
+            "model": "oremod:block/ruby_block"
+        }
+    }
+}

@@ -41,7 +41,7 @@ public class OreMod
     public static final ItemGroup TAB = new ItemGroup("oreTab") {
         @Override
         public ItemStack createIcon() {
-            return new ItemStack(RegistryHandler.ITEM.get());
+            return new ItemStack(RegistryHandler.RUBY.get());
 
         }
     };

@@ -1,4 +1,6 @@
 {
     "item.oremod.ruby": "Ruby",
+    "block.oremod.ruby_block": "Ruby Block",
     "itemGroup.oreTab": "Ores"
+    
 }
