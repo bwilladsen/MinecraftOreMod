@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": {
+        "item": "oremod:ruby"
+    },
+    "result": "minecraft:red_dye",
+    "experience": 1.0,
+    "cookingtime": 200
+}
