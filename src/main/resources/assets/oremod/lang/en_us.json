@@ -6,6 +6,13 @@
     "item.oremod.ruby_shovel": "Ruby Shovel",
     "item.oremod.ruby_hoe": "Ruby Hoe",
     "block.oremod.ruby_block": "Ruby Block",
+
+    "item.oremod.ruby_helmet": "Ruby Helmet",
+    "item.oremod.ruby_chestplate": "Ruby Chestplate",
+    "item.oremod.ruby_leggings": "Ruby Leggings",
+    "item.oremod.ruby_boots": "Ruby Boots",
+
+
     "itemGroup.oreTab": "Ores"
     
 }

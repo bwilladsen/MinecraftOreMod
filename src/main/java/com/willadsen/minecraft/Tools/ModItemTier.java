@@ -8,13 +8,9 @@ import net.minecraft.item.IItemTier;
 import net.minecraft.item.crafting.Ingredient;
 
 public enum ModItemTier implements IItemTier {
-
-
-    // Attack Damage Calculation 1 (all items start at 1) + base damage + item damage.
-
     // Harvet Level, Maximum Uses, Efficiency, Attack Damage
     RUBY(3, 800, 7.0f, 3.0f, 12, () -> {
-        return Ingredient.fromItems(RegistryHandler.RUBY_SWORD.get());
+        return Ingredient.fromItems(RegistryHandler.RUBY.get());
     });
 
     private final int harvestLevel;
