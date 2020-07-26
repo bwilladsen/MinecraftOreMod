@@ -1,5 +1,6 @@
 package com.willadsen.minecraft.util;
 
+import com.willadsen.minecraft.Ore.RubyOre;
 import com.willadsen.minecraft.OreMod;
 import com.willadsen.minecraft.Armor.ModArmorMaterial;
 import com.willadsen.minecraft.Blocks.RubyBlock;
@@ -33,6 +34,7 @@ public class RegistryHandler {
         public static final RegistryObject<PoisonApple> POISON_APPLE = ITEMS.register("poison_apple", PoisonApple::new);
 
         public static final RegistryObject<Block> RUBY_BLOCK = BLOCKS.register("ruby_block", RubyBlock::new);
+        public static final RegistryObject<Block> RUBY_ORE = BLOCKS.register("ruby_ore", RubyOre::new);
 
         public static final RegistryObject<Item> RUBY_BLOCK_ITEM = ITEMS.register("ruby_block",
                         () -> new BlockItemBase(RUBY_BLOCK.get()));
