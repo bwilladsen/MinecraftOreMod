@@ -4,6 +4,7 @@ import com.willadsen.minecraft.OreMod;
 import com.willadsen.minecraft.Armor.ModArmorMaterial;
 import com.willadsen.minecraft.Blocks.RubyBlock;
 import com.willadsen.minecraft.Items.ItemBase;
+import com.willadsen.minecraft.Items.PoisonApple;
 import com.willadsen.minecraft.Tools.ModItemTier;
 import com.willadsen.minecraft.Blocks.BlockItemBase;
 
@@ -22,12 +23,14 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 
 public class RegistryHandler {
-        public static final DeferredRegister<Item> ITEMS = new DeferredRegister<Item>(ForgeRegistries.ITEMS,
+        public static final DeferredRegister<Item> ITEMS = new DeferredRegister<>(ForgeRegistries.ITEMS,
                         OreMod.MOD_ID);
-        public static final DeferredRegister<Block> BLOCKS = new DeferredRegister<Block>(ForgeRegistries.BLOCKS,
+        public static final DeferredRegister<Block> BLOCKS = new DeferredRegister<>(ForgeRegistries.BLOCKS,
                         OreMod.MOD_ID);
 
         public static final RegistryObject<Item> RUBY = ITEMS.register("ruby", ItemBase::new);
+
+        public static final RegistryObject<PoisonApple> POISON_APPLE = ITEMS.register("poison_apple", PoisonApple::new);
 
         public static final RegistryObject<Block> RUBY_BLOCK = BLOCKS.register("ruby_block", RubyBlock::new);
 
