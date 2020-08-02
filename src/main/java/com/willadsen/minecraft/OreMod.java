@@ -42,7 +42,6 @@ public class OreMod
         @Override
         public ItemStack createIcon() {
             return new ItemStack(RegistryHandler.RUBY.get());
-
         }
     };
 

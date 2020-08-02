@@ -1,5 +1,19 @@
 {
     "item.oremod.poison_apple": "Poison Apple",
+
+    "item.oremod.rainbow_ruby": "Rainbow Ruby",
+    "item.oremod.rainbow_ruby_sword": "Rainbow Ruby Sword",
+    "item.oremod.rainbow_ruby_pickaxe": "Rainbow Ruby Pickaxe",
+    "item.oremod.rainbow_ruby_axe": "Rainbow Ruby Axe",
+    "item.oremod.rainbow_ruby_shovel": "Rainbow Ruby Shovel",
+    "item.oremod.rainbow_ruby_hoe": "Rainbow Ruby Hoe",
+    "block.oremod.rainbow_ruby_block": "Rainbow Ruby Block",
+    "block.oremod.rainbow_ruby_ore": "Rainbow Ruby Ore",
+    "item.oremod.rainbow_ruby_helmet": "Rainbow Ruby Helmet",
+    "item.oremod.rainbow_ruby_chestplate": "Rainbow Ruby Chestplate",
+    "item.oremod.rainbow_ruby_leggings": "Rainbow Ruby Leggings",
+    "item.oremod.rainbow_ruby_boots": "Rainbow Ruby Boots",
+
     "item.oremod.ruby": "Ruby",
     "item.oremod.ruby_sword": "Ruby Sword",
     "item.oremod.ruby_pickaxe": "Ruby Pickaxe",
@@ -8,13 +22,10 @@
     "item.oremod.ruby_hoe": "Ruby Hoe",
     "block.oremod.ruby_block": "Ruby Block",
     "block.oremod.ruby_ore": "Ruby Ore",
-
     "item.oremod.ruby_helmet": "Ruby Helmet",
     "item.oremod.ruby_chestplate": "Ruby Chestplate",
     "item.oremod.ruby_leggings": "Ruby Leggings",
     "item.oremod.ruby_boots": "Ruby Boots",
 
-
     "itemGroup.oreTab": "Ores"
-    
 }

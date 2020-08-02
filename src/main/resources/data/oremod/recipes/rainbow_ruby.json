@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "oremod:rainbow_ruby_block"
+    }
+  ],
+  "result":
+  {
+    "item": "oremod:rainbow_ruby",
+    "count": 9
+  }
+}

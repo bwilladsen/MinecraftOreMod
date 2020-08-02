@@ -1,5 +1,7 @@
 package com.willadsen.minecraft.util;
 
+import com.willadsen.minecraft.Blocks.RainbowRubyBlock;
+import com.willadsen.minecraft.Ore.RainbowRubyOre;
 import com.willadsen.minecraft.Ore.RubyOre;
 import com.willadsen.minecraft.OreMod;
 import com.willadsen.minecraft.Armor.ModArmorMaterial;
@@ -30,10 +32,14 @@ public class RegistryHandler {
         // Blocks
         public static final RegistryObject<Block> RUBY_BLOCK = BLOCKS.register("ruby_block", RubyBlock::new);
         public static final RegistryObject<Block> RUBY_ORE = BLOCKS.register("ruby_ore", RubyOre::new);
+        public static final RegistryObject<Block> RAINBOW_RUBY_BLOCK = BLOCKS.register("rainbow_ruby_block", RainbowRubyBlock::new);
+        public static final RegistryObject<Block> RAINBOW_RUBY_ORE = BLOCKS.register("rainbow_ruby_ore", RainbowRubyOre::new);
 
         // Items
         public static final RegistryObject<Item> RUBY = ITEMS.register("ruby", ItemBase::new);
         public static final RegistryObject<Item> RUBY_BLOCK_ITEM = ITEMS.register("ruby_block", () -> new BlockItemBase(RUBY_BLOCK.get()));
+        public static final RegistryObject<Item> RAINBOW_RUBY = ITEMS.register("rainbow_ruby", ItemBase::new);
+        public static final RegistryObject<Item> RAINBOW_RUBY_BLOCK_ITEM = ITEMS.register("rainbow_ruby_block", () -> new BlockItemBase(RAINBOW_RUBY_BLOCK.get()));
 
         // Armor
         public static final RegistryObject<ArmorItem> RUBY_HELMET = ITEMS.register("ruby_helmet", () -> new ArmorItem(ModArmorMaterial.RUBY, EquipmentSlotType.HEAD, new Item.Properties().group(OreMod.TAB)));

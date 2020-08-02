@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "oremod:rainbow_ruby"
+  },
+  "result": "minecraft:blue_dye",
+  "experience": 1.0,
+  "cookingtime": 200
+}
