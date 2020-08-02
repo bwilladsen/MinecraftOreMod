@@ -1,7 +1,5 @@
 package com.willadsen.minecraft.World.Gen;
 
-import com.google.common.eventbus.Subscribe;
-import com.willadsen.minecraft.Ore.RubyOre;
 import com.willadsen.minecraft.OreMod;
 import com.willadsen.minecraft.util.RegistryHandler;
 import net.minecraft.block.BlockState;
@@ -23,7 +21,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 public class ModOreGen {
 
     // You can use this technique to spawn ore next to other ore block.
-    public static OreFeatureConfig.FillerBlockType END_STONE = OreFeatureConfig.FillerBlockType.create("END_STONE",
+    public static final OreFeatureConfig.FillerBlockType END_STONE = OreFeatureConfig.FillerBlockType.create("END_STONE",
             "end_stone",new BlockMatcher(Blocks.END_STONE));
 
     @SubscribeEvent

@@ -29,7 +29,7 @@ public enum ModArmorMaterial implements IArmorMaterial {
     private final int enchantability;
     private final SoundEvent soundEvent;
     private final float toughness;
-    private Supplier<Ingredient> repairMaterial;
+    private final Supplier<Ingredient> repairMaterial;
 
     ModArmorMaterial(String name, int maxDamageFactor, int[] damageReductionAmountArray, int enchantability, SoundEvent soundEvent,
                      float toughness, Supplier<Ingredient> repairMaterial) {
@@ -40,7 +40,7 @@ public enum ModArmorMaterial implements IArmorMaterial {
         this.soundEvent = soundEvent;
         this.toughness = toughness;
         this.repairMaterial = repairMaterial;
-    };
+    }
 
     @Override
     public int getDamageReductionAmount(EquipmentSlotType slotIn) {
